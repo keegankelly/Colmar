@@ -1,0 +1,655 @@
+/* Universal Styles */
+
+html {
+    font-family: Alegreya, serif;
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(244, 244, 244);
+}
+
+
+/* Header Styles */
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: 64px;
+    width: 100%;
+    background-color: rgb(244, 244, 244);
+}
+
+.header-mobile {
+    display: none;
+}
+
+#logo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 24px;
+    margin-right: 4px;
+}
+
+#logo-text {
+    color: rgb(55, 55, 55);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+#logo-text span {
+    color: rgb(192, 178, 131);
+    font-weight: normal;
+}
+
+nav {}
+
+nav span {
+    font-size: 1.3rem;
+    margin: 8px;
+    color: rgb(55, 55, 55);
+    transition: color 500ms linear 0ms;
+}
+
+nav span a:hover {
+    color: rgb(192, 178, 131);
+}
+
+
+/* Banner Styles */
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(55, 55, 55);
+    color: rgb(244, 244, 244);
+    font-family: Roboto, sans-serif;
+}
+
+.banner img {
+    width: 60%;
+    margin: 24px;
+}
+
+.banner-right {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 3rem;
+}
+
+.banner-right h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 1rem;
+}
+
+.banner-right h3 {
+    font-size: 1.2rem;
+    margin: 1rem;
+}
+
+#button {
+    background-color: rgb(244, 244, 244);
+    color: rgb(55, 55, 55);
+    font-size: 1.2rem;
+    padding: 10px;
+    text-align: center;
+    transition: background-color 300ms linear 0ms;
+}
+
+#button:hover {
+    background-color: rgb(192, 178, 131);
+}
+
+
+/* Campus Styles */
+
+.campus {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: Roboto, sans-serif;
+    background-color: rgb(244, 244, 244);
+}
+
+.campus-left {
+    margin: 1rem 0rem 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    color: rgb(55, 55, 55);
+}
+
+.campus-left h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.campus-left h5 {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.campus-left img {
+    width: 100%;
+}
+
+.campus-right {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 0.5rem;
+}
+
+.campus-right img {
+    width: 35%;
+}
+
+#orientation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0.5rem;
+}
+
+#orientation h4 {
+    font-family: Roboto, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0.5rem;
+}
+
+#orientation h5 {
+    font-family: Roboto, sans-serif;
+    font-size: 1rem;
+    margin: 0.5rem;
+}
+
+#link {
+    transition: color 500ms linear 0ms;
+}
+
+#link a:hover {
+    color: rgb(192, 178, 131);
+}
+
+#our-campus {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0.5rem;
+}
+
+#our-campus h4 {
+    font-family: Roboto, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0.5rem;
+}
+
+#our-campus h5 {
+    font-family: Roboto, sans-serif;
+    font-size: 1rem;
+    margin: 0.5rem;
+}
+
+#lecture {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0.5rem;
+}
+
+#lecture h4 {
+    font-family: Roboto, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0.5rem;
+}
+
+#lecture h5 {
+    font-family: Roboto, sans-serif;
+    font-size: 1rem;
+    margin: 0.5rem;
+}
+
+
+/* Learning Styles */
+
+.learning {
+    background-color: rgb(55, 55, 55);
+    color: rgb(244, 244, 244);
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.learning-mobile {
+    display: none;
+}
+
+.learning-head h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.learning-blocks {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.block {
+    font-size: 1rem;
+    background-color: rgb(244, 244, 244);
+    color: rgb(55, 55, 55);
+    width: 25%;
+    margin: 1rem;
+    transition: background-color 500ms linear 0ms;
+}
+
+.block:hover {
+    background-color: rgb(192, 178, 131);
+}
+
+.block img {
+    width: 100%;
+}
+
+.block h4 {
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+}
+
+.block h5 {
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#title {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+
+/* Thesis Styles */
+
+.thesis {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: rgb(244, 244, 244);
+}
+
+.thesis-head {}
+
+.thesis-head h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: rgb(55, 55, 55);
+}
+
+.thesis-middle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.thesis-middle-left {
+    width: 60%;
+    margin: 1.5rem 0 1.5rem 1.5rem;
+}
+
+video {
+    width: 90%;
+}
+
+.thesis-middle-right {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 0.5rem;
+}
+
+.fisma {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 95%;
+    height: 168px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(244, 244, 244);
+    color: rgb(55, 55, 55);
+    border: 1px solid rgb(192, 178, 131);
+    transition: background-color 300ms linear 0ms;
+}
+
+.fisma:hover {
+    background-color: rgb(192, 178, 131);
+}
+
+.fisma img {
+    margin: 1rem;
+    width: 35%;
+}
+
+.fisma h4 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 1rem;
+}
+
+.fisma h5 {
+    font-size: 1rem;
+}
+
+.now-then {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 95%;
+    height: 168px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(244, 244, 244);
+    color: rgb(55, 55, 55);
+    border: 1px solid rgb(192, 178, 131);
+    transition: background-color 300ms linear 0ms;
+}
+
+.now-then:hover {
+    background-color: rgb(192, 178, 131);
+}
+
+.now-then img {
+    margin: 1rem;
+    width: 35%;
+}
+
+.now-then h4 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 1rem;
+}
+
+.now-then h5 {
+    font-size: 1rem;
+}
+
+.thesis-foot h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 1rem;
+}
+
+.thesis-foot {
+    width: 60%;
+    align-self: flex-start;
+}
+
+.thesis-foot h5 {
+    font-size: 1rem;
+    margin: 1rem;
+}
+
+
+/* Footer Styles */
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 1px solid rgb(192, 178, 131);
+    background-color: rgb(244, 244, 244);
+    color: rgb(55, 55, 55);
+}
+
+#copyright {
+    margin: 1rem;
+}
+
+#foot {
+    margin: 1rem;
+}
+
+#foot span {
+    padding: 0.5rem;
+    transition: color 500ms linear 0ms;
+}
+
+#foot span a:hover {
+    color: rgb(192, 178, 131);
+}
+
+
+/* Media Queries */
+
+@media only screen and (max-width: 470px) {
+    /* Header Styles */
+    .header {
+        display: none;
+    }
+    .header-mobile {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+        height: 64px;
+        background-color: rgb(244, 244, 244);
+    }
+    /* Banner Styles */
+    .banner {
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .banner img {
+        display: none;
+    }
+    .banner-right {
+        width: 100%;
+        margin: 1rem;
+    }
+    #button {
+        width: 90%;
+    }
+    /* Campus Styles */
+    .campus-left {
+        display: none;
+    }
+
+    .campus-right {
+        width: 100%;
+    }
+    /* Learning Styles */
+    .learning {
+      background-color: rgb(244, 244, 244);
+      color: rgb(55, 55, 55);
+      border-top: 1px solid rgb(192, 178, 131);
+      border-bottom: 1px solid rgb(192, 178, 131);
+    }
+
+    .learning-blocks {
+        display: none;
+    }
+
+    .learning-mobile {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+    }
+
+    .block-mobile {
+        width: 100%;
+        background-color: rgb(55, 55, 55);
+        color: rgb(244, 244, 244);
+        padding: 20px 10px;
+        margin: 0.25rem 0 0.25rem 0;
+        transition: background-color 300ms linear 0ms;
+    }
+
+    .block-mobile:hover {
+        background-color: rgb(192, 178, 131);
+    }
+    /* Thesis Styles */
+    .thesis {
+      margin-bottom: 1rem;
+    }
+    .thesis-middle-left {
+      width: 100%;
+      margin: auto;
+    }
+
+    video {
+      width: 100%;
+    }
+    .thesis-middle-right {
+      display: none;
+    }
+
+    .thesis-foot {
+      display: none;
+    }
+    /* Footer Styles */
+    #copyright {
+      width: 100%;
+    }
+
+    #foot {
+      display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+  /* Header Styles */
+  /* Banner Styles */
+      .banner {
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+      }
+      .banner img {
+        width: 95%;
+        margin: 1rem;
+      }
+      .banner-right {
+        width: 90%;
+        margin: 1rem;
+      }
+  /* Campus Styles */
+      .campus {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+      }
+      .campus-left {
+        width: 95%;
+      }
+
+      .campus-left img {
+        width: 95%;
+      }
+
+      .campus-right {
+        width: 100%;
+        border-top: 1px solid rgb(192, 178, 131);
+      }
+
+      .campus-right img {
+        width: 30%;
+      }
+
+      #orientation {
+        width: 90%;
+      }
+
+      #our-campus {
+        width: 90%;
+      }
+
+      #lecture {
+        width: 90%;
+      }
+  /* Learning Styles */
+      #title {
+        font-size: 1.3rem;
+      }
+  /* Thesis Styles */
+  /* Footer Styles */
+}
+
+@media only screen and (max-width: 768px) {
+/* Header Styles */
+/* Banner Styles */
+/* Campus Styles */
+/* Learning Styles */
+    .block {
+      text-align: center;
+      vertical-align: middle;
+    }
+    .block h4 {
+      margin: 0.5rem;
+    }
+    .block h5 {
+      display: none;
+    }
+/* Thesis Styles */
+    .thesis-middle-left {
+      width: 100%;
+      margin: auto;
+    }
+    video {
+      width: 100%;
+    }
+    .thesis-middle-right {
+      display: none;
+    }
+
+    .thesis-foot {
+      width: 100%;
+    }
+/* Footer Styles */
+}
+
+/* Header Styles */
+/* Banner Styles */
+/* Campus Styles */
+/* Learning Styles */
+/* Thesis Styles */
+/* Footer Styles */
